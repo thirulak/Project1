@@ -7,4 +7,6 @@
     <string name="add1">6/8,florists road,</string>
     <string name="address2">Chennai</string>
     <string name="Company_Name">Infinite Flowers-The place where you can get twinkling flowers</string>
+    <string name="time">Open : 9am-5pm</string>
+    <string name="clock">Hours of operation:9am-5pm</string>
 </resources>
