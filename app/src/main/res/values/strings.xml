@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Business card</string>
+    <string name="website">https://www.only-roses.com/infiniteroses</string>
+    <string name="web">www.infiniteflowers.com</string>
+    <string name="phone">9224873202</string>
+    <string name="add">6/8.Florists road,</string>
+    <string name="add1">6/8,florists road,</string>
+    <string name="address2">Chennai</string>
+    <string name="Company_Name">Infinite Flowers-The place where you can get twinkling flowers</string>
+</resources>

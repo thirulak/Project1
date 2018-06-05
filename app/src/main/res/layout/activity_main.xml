@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.buisnesscard.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flo"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/Company_Name"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/in"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/ma"
+        />
+
+    <TextView
+        android:id="@+id/addre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/add1"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/addre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addre1"
+        android:layout_marginLeft="50dp"
+        android:text="@string/address2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/phon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addre2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="@string/phone"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/ph"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="470dp"
+        android:src="@drawable/we"
+        />
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phon"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/web"
+        android:textColorLink="#006699"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
