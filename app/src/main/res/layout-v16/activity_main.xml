@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.buisnesscard.MainActivity">
-
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -13,7 +12,6 @@
         android:contentDescription="@null"
         android:scaleType="centerCrop"
         android:src="@drawable/flo" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -26,7 +24,6 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="normal" />
-
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -35,7 +32,6 @@
         android:layout_marginTop="245dp"
         android:contentDescription="@null"
         android:src="@drawable/in" />
-
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -44,7 +40,6 @@
         android:layout_marginTop="300dp"
         android:contentDescription="@null"
         android:src="@drawable/ma" />
-
     <TextView
         android:id="@+id/addre1"
         android:layout_width="wrap_content"
@@ -57,7 +52,6 @@
         android:text="@string/add1"
         android:textColor="#000000"
         android:textSize="20sp" />
-
     <TextView
         android:id="@+id/addre2"
         android:layout_width="wrap_content"
@@ -68,7 +62,6 @@
         android:text="@string/address2"
         android:textColor="#000000"
         android:textSize="20sp" />
-
     <TextView
         android:id="@+id/phon"
         android:layout_width="wrap_content"
@@ -83,7 +76,6 @@
         android:textColor="#000000"
         android:textColorLink="#000000"
         android:textSize="20sp" />
-
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -92,7 +84,6 @@
         android:layout_marginTop="360dp"
         android:contentDescription="@null"
         android:src="@drawable/ph" />
-
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -101,7 +92,6 @@
         android:layout_marginTop="400dp"
         android:contentDescription="@null"
         android:src="@drawable/we" />
-
     <TextView
         android:id="@+id/visit"
         android:layout_width="wrap_content"
@@ -114,7 +104,6 @@
         android:text="@string/web"
         android:textColor="#000000"
         android:textSize="20sp" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
